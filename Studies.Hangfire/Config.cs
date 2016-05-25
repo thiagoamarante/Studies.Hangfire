@@ -8,5 +8,7 @@ namespace Studies.Hangfire
     public class Config
     {
         public string ConnectionString { get; set; }
+
+        public string ConnectionStringRedis { get; set; }
     }
 }
